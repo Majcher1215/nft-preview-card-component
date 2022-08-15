@@ -107,3 +107,25 @@ body {
 .attribution a { 
     color: hsl(228, 45%, 44%);
 }
+
+
+/* iPads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    .preview {
+        width: 80%;
+    }
+}
+
+/* Laptops */
+@media (min-width: 769px) and (max-width: 1300px){
+    .preview {
+        width: 40%;
+    }
+}
+
+/* Desktop and Large */
+@media (min-width: 1301px) {
+    .preview {
+        width: 20%;
+    }
+}
